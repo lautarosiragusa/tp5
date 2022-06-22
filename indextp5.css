@@ -1,0 +1,116 @@
+
+*{
+    padding: 10px;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+body{
+    background-color:rgb(255, 255, 255) ;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+
+
+#card{
+width:450px;
+height:550px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 20px -1px #000000;
+background-color: #ef2652;
+
+}
+
+
+#precios{
+font-size: 30px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#nombre{
+font-size: 50px;
+margin: 20px;
+}
+
+#imagen{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50%;
+object-fit: cover;
+}
+
+#imagen img{
+width:100%;
+height:100%;
+
+}
+
+
+#ingredientes{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 130px;
+width: 80%;
+font-size: 25px;
+margin: 20px;
+}
+
+#form{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+#input{
+margin-right: 30px;
+height: 20px;
+font-size: 25px;
+width:45%;
+text-align: center;
+border-radius:120px;
+}
+
+button{
+background-color: green;
+width: 30%;
+border-radius: 120px;
+color:white ;
+font-size: 25px;
+padding: 0%;
+}
+
+#tipos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: auto;
+height: 300px;
+margin-left: 40px;
+margin-top: 0%;
+border-radius: 18px;
+color: white;
+background-color: rgb(58, 53, 209);
+box-shadow: 0px 0px 20px -1px #000000;
+}
+
+#tipos ul li{
+list-style: none;
+
+}
